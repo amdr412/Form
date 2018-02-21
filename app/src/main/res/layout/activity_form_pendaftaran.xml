@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rafii_amd.aplikasipendaftaran.form_pendaftaran">
+
+
+    <TextView
+        android:id="@+id/score"
+        android:textSize="20sp"
+        android:text="Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/goal"
+        android:text="Goal"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:background="#f426a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/resetscore"
+        android:text="Reset Score"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:background="#48c1bd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
